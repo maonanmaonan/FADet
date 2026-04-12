@@ -1,0 +1,8 @@
+#path: ../datasets/S2Aircraft/RGB # dataset root dir
+path: /media/mao/Elements/whole/S2Aircraft/RGB
+train: images/train
+val: images/test1
+test: images/test
+
+names:
+  0: plane
