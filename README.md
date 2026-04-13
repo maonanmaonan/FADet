@@ -11,8 +11,8 @@ S2Aircraft Dataset is available at [quark](https://pan.quark.cn/s/524cbdea440e) 
 Please refer to the [Ultralytics](https://github.com/ultralytics/ultralytics)
 ## Results
 | Method | Dataset | mAP50 (%) | Params (M) | GFlops | FPS (s) | Download |
-| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| FAdet | S2Aircraft | 96.3 | 98.08 | 98.10 | 98.09 | [models](https://pan.quark.cn/s/74479bafb1e4) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| FAdet | S2Aircraft | 96.3 | 8.45 | 2.6 | 91.7 | [models](https://pan.quark.cn/s/74479bafb1e4) |
 ## Contact
 If any questions, kindly contact with Nan Mao via e-mail: 2023124038@chd.edu.cn 
 ## Citation
