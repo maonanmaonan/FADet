@@ -1,11 +1,10 @@
-# A Benchmark Dataset and Novel Methods for Parallax-Based Flying Aircraft Detection in Sentinel-2 Imagery
-
-## Instruction
-We construct a flying aircraft detection dataset (S2Aircraft) based on Sentinel-2 satellite multispectral imagery with a spatial resolution of 10 m. The dataset is annotated with oriented bounding boxes (OBBs) and includes both RGB and NIR spectral bands. Additionally, we propose an efficient flying aircraft detection network (FADet),
-## Results
+#JSTARS(2025) A Benchmark Dataset and Novel Methods for Parallax-Based Flying Aircraft Detection in Sentinel-2 Imagery
 ![image](https://github.com/user-attachments/assets/66ac1ba5-84ff-4348-b772-9078295cc4c4)
-![image](https://github.com/user-attachments/assets/339f570e-4965-4907-91ba-192421b9a463)
-![image](https://github.com/user-attachments/assets/3741e4c0-e5dd-46fa-bd29-5d4c7f83eec2)
-![image](https://github.com/user-attachments/assets/df6a52a9-5f7f-430d-9166-dabc68ba5972)
+
+## Abstract
+Satellite-based aircraft monitoring is an important complement to ground surveillance systems, providing strong support for the safe, efficient, and reliable operation of global aviation. Most existing aircraft detection datasets are derived from still satellite imagery, making it difficult to detect flying aircraft. Although video satellite imagery can provide motion cues,its spatial coverage is limited, making it challenging to capture flying aircraft targets that are sparsely distributed over wide areas. Each Sentinel-2 satellite image covers a width of hundreds of kilometers, providing favorable conditions for monitoring flying aircraft.Beyond this,the physical design of its multispectral instruments induces parallax effects for moving objects in multispectral imagery, enabling a novel approach for the detection of flying aircraft. We construct a flying aircraft detection dataset (S2Aircraft) based on Sentinel-2 satellite multispectral imagery with a spatial resolution of 10m. The dataset is annotated with oriented bounding boxes and includes both RGB and NIR spectral bands. In addition, we design an efficient flying aircraft detection network (FADet), which maps input
+images to a high-dimensional nonlinear feature space while main taining low computational complexity. Moreover, for single-class object detection tasks, the model employs a semidecoupled head to achieve efficient detection. Finally, a loss function is specifically designed according to the geometric characteristics of targets in the S2Aircraft dataset,significantly improving the accuracy and stability of oriented object detection.Extensive experiments demonstrate the effectiveness and advancement of our FADet. Specifically, on our S2Aircraft dataset, FADet achieves competitive performance reaching 2.6 giga floating-point operations per second and 96.3% meanaverage precision (mAP) at 50%intersection over union. On two public datasets, HRSC2016 and CORS-ADD, FADet achieves mAP50 of 90.90% and 94.16%, respectively.
+## Dataset
+Dataset is available at S2Aircraft(https://pan.quark.cn/s/524cbdea440e)
 
 #  The dataset and codes are coming soon.
