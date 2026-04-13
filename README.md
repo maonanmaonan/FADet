@@ -1,4 +1,4 @@
-#JSTARS(2025) A Benchmark Dataset and Novel Methods for Parallax-Based Flying Aircraft Detection in Sentinel-2 Imagery
+## JSTARS(2025) A Benchmark Dataset and Novel Methods for Parallax-Based Flying Aircraft Detection in Sentinel-2 Imagery
 
 ![image](https://github.com/user-attachments/assets/66ac1ba5-84ff-4348-b772-9078295cc4c4)
 
